@@ -73,7 +73,7 @@ function App() {
   return (
     
     <div class="w-screec h-screen" style={{ backgroundImage:`url(${background})`, backgroundRepeat: 'no-repeat' }}>
-     //#region rutas
+   
      <Routes>
     <Route>
      <Route path='App' element={<App/>}/>
@@ -142,7 +142,7 @@ function App() {
       <Route path='Video30' element={<Video30/>}/>
     </Route>
     </Routes> 
-    //#endregion
+   
       <div class="w-3/4 h-5/6">
       <img src={cherimagenes(`./logoucc.png`)} class="relative left-2" />
        <ul class="flex flex-col relative left-full bottom-20 w-2 pregunta1 from 0">

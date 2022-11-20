@@ -33,7 +33,7 @@ const Pregunta1 = ()=>{
 
     <img src={cherimagenes(`./cher-1.jpg`)} class="relative ml-20 left-1/4" />
         <ul class="flex flex-col relative ml-80 left-1/4 top-10  w-2 pregunta1 ">
-       <Link to="/Pregunta2" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Planta nuclear Vladimir Ilich Lenin"</Link>
+       <Link to="/Pregunta2" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Planta nuclear Vladimir Ilich Lenin</Link>
        <Link to="/Video1" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Planta nuclear de Chernobyl</Link>
        <Link to="/Video1" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Planta nuclear de Springfield</Link>
        <Link to="/Video1" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Planta nuclear Roblox</Link>

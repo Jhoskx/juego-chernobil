@@ -16,14 +16,14 @@ const Pregunta2 = ()=>{
        <Link to="/Mapa" class=" w-40 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Mapa</Link>
        <Link to="/Salir" class=" w-40 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Salir</Link>
        </ul>
-    <h1 class=" w-1/3 relative ml-10 bottom-10 left-1/3 text-center font-Ubuntu text-white text-2xl ">  pregunta 2</h1>
+    <h1 class=" w-1/3 relative ml-10 bottom-10 left-1/3 text-center font-Ubuntu text-white text-2xl ">2 ¿Cómo se llama la ciudad donde ocurrió el accidente?</h1>
 
-    <img src={cherimagenes(`./cher-1.jpg`)} class="relative ml-20 left-1/4" />
+    <img src={cherimagenes(`./cher-2.jpg`)} class="relative ml-20 left-1/4" />
         <ul class="flex flex-col relative ml-80 left-1/4 top-10  w-2 pregunta1 ">
-       <Link to="/Pregunta2" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Planta nuclear Vladimir Ilich Lenin"</Link>
-       <Link to="/Video1" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Planta nuclear de Chernobyl</Link>
-       <Link to="/Video1" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Planta nuclear de Springfield</Link>
-       <Link to="/Video1" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Planta nuclear Roblox</Link>
+       <Link to="/Video2" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Ucrania</Link>
+       <Link to="/Pregunta3" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Pripiat</Link>
+       <Link to="/Video2" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Kiev</Link>
+       <Link to="/Video2" class=" my-2 w-80 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Chernobil</Link>
        </ul>
     </div>
 }
