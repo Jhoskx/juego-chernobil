@@ -3,6 +3,7 @@ import React from 'react';
 import ReactPlayer from'react-player';
 import {Routes,Route, Link, Outlet} from 'react-router-dom'
 
+
 const Video24 = ()=>{
     return <div class="w-screec h-screen " style={{ backgroundImage:`url(${background})`, backgroundRepeat: 'no-repeat' }}>
     <div class="relative left-36  top-10 w-11/12">

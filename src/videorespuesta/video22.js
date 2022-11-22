@@ -2,11 +2,11 @@ import background from '../imagenes/fondo_ayuda.jpg';
 import React from 'react';
 import ReactPlayer from'react-player';
 import {Routes,Route, Link, Outlet} from 'react-router-dom'
-
+import video22 from '../videos/Video22.mp4'
 const Video22 = ()=>{
     return <div class="w-screec h-screen " style={{ backgroundImage:`url(${background})`, backgroundRepeat: 'no-repeat' }}>
     <div class="relative left-36  top-10 w-11/12">
-    <ReactPlayer   url={require('../videos/Video1.mp4')}
+    <ReactPlayer   url='https://www.youtube.com/watch?v=jeekgaHf4sA&ab_channel=jhonatan_611'
     controls
     width='70%'
     height='70%'    
