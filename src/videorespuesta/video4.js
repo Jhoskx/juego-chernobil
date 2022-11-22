@@ -13,7 +13,7 @@ const Video4 = ()=>{
     />
     </div>
     <div class="relative top-44 left-1/3">
-    <Link to="/Pregunta2" class=" w-2 h-10 my-40 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Siguiente Pregunta</Link>
+    <Link to="/Pregunta5" class=" w-2 h-10 my-40 text-center text-white font-Ubuntu border-2 border-white rounded-lg " >Siguiente Pregunta</Link>
     </div>
 </div>
 }

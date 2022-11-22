@@ -10,7 +10,8 @@ const Video1 = ()=>{
     <ReactPlayer   url={require('../videos/Video1.mp4')}
     controls
     width='70%'
-    height='70%'    
+    height='70%' 
+    playing   
     />
     </div>
     <div class="relative top-44 left-1/3">
